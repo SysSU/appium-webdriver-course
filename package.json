@@ -1,0 +1,11 @@
+{
+  "name": "appium-webdriverio-course",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/SysSU/appium-webdriver-course",
+  "author": "Seldon Stone",
+  "license": "MIT",
+  "dependencies": {
+    "appium": "^2.3.0"
+  }
+}
