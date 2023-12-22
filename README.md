@@ -10,7 +10,7 @@ This setup is for Windows, however, you should be able to deduce from the setup 
 - Ensure you are using NPM and not Yarn, yarn is not working as of this writing
 
 ### Java
-- Install Java JDK (Latest)
+- [Install Java JDK 11](https://adoptium.net/en-GB/temurin/releases/?os=windows&version=11)
   - Set `JAVA_HOME` env variable if not already set
 
 ### Android Virtual Device
