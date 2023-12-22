@@ -22,9 +22,9 @@ This setup is for Windows, however, you should be able to deduce from the setup 
 
 ### Appium
 - Install appium dsrivers by running the following in a terminal
-  - `yarn appium driver install xcuitest` (You may have to run this twice)
-  - `yarn appium driver install uiautomator2`
-  - `yarn appium driver list` to verify they have been installed
+  - `appium driver install xcuitest` (You may have to run this twice)
+  - `appium driver install uiautomator2`
+  - `appium driver list` to verify they have been installed
 
 
 ## Appium Inspector
