@@ -54,11 +54,17 @@ exports.config = {
     // https://saucelabs.com/platform/platform-configurator
     //
     capabilities: [{
+        // Platform you want to test against
         'platformName': 'Android',
+        // Device OS version
         'appium:platformVersion': '11.0',
+        // Device name
         'appium:deviceName': 'Pixel7v11',
         'appium:automationName': 'UIAutomator2',
-        'appium:app': path.join(process.cwd(), './app/android/ApiDemos-debug.apk')
+        // Location of app to test against
+        'appium:app': path.join(process.cwd(), './app/android/ApiDemos-debug.apk'),
+        // Auto grant all permissions to app
+        "appium:autoGrantPermissions" : true
     }],
 
     //
